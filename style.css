@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/693/121/original/paw-sign-of-rock-paper-scissors-game-vector.png);
+}
+
+h2.computer {
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    font-weight: lighter;
+    color: #FBB03B;
+    padding-left: 50px;
+}
+
+h2.your {
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    font-weight: lighter;
+    color: #FBB03B;
+    padding-left: 50px;
+}
+
+h2.result {
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    margin-left: 100px;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.win {
+    float: right;
+    bottom: 650px;
+    right: 300px;
+    position: fixed;
+    color: #8C6338;
+    font-weight: lighter;
+}
+
+.buttons {
+    padding-left: 50px;
+
+
+}
+
+button {
+    width: 95px;
+    height: 90px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border-color: #8C6338
+}
+
+button#rock {
+    background-image: url(./img/cat_rock.jpg);
+    background-size: 90px;
+    background-repeat: no-repeat;
+
+}
+
+button#paper {
+    background-image: url(./img/cat_paper.jpg);
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+
+button#scissors {
+    background-image: url(./img/cat_scissors.jpg);
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
